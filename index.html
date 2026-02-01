@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazar List - Premium Shopping Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bazar List</h1>
+            <p>Organize your shopping with ease</p>
+        </header>
+
+        <section class="add-item-section">
+            <div class="input-group">
+                <input type="text" id="itemInput" placeholder="Add a new item..." autocomplete="off">
+                <button id="addButton">Add</button>
+            </div>
+        </section>
+
+        <section class="list-section">
+            <ul id="bazarList">
+                <!-- Items will be added here -->
+            </ul>
+        </section>
+
+        <footer class="stats">
+            <span id="itemCount">0 items</span>
+            <button id="clearAll" class="secondary-btn">Clear All</button>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
